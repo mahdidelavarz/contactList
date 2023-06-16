@@ -33,7 +33,7 @@ const ContactManage = () => {
         e.preventDefault();
         console.log(formValue)
 
-        if (!nameInputRef.current.value, !emailInputRef.current.value) {
+        if (!nameInputRef.current.value & !emailInputRef.current.value) {
             alert('please complete the form !')
         } else {
             try {
