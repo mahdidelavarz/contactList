@@ -1,0 +1,58 @@
+.contact-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.form-add{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left:10px ;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.form input {
+    margin: 5px 0px 15px 0px;
+    padding: 4px 7px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.add-contact-btn {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-toggle-btn {
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(40, 103, 100);
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    font-size:14px;
+}
+.svg{
+    margin-left: 20px;
+    margin-top: 5px;
+    color: aliceblue;
+}
+.disable{
+    display: none;
+}
