@@ -14,13 +14,13 @@
 .form {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     font-size: 14px;
     padding-left: 10px;
 }
 
 .form input {
+    width: 17rem;
     margin: 5px 0px 15px 0px;
     padding: 4px 7px;
     border: 2px solid #ccc;

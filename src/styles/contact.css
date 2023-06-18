@@ -1,6 +1,7 @@
-.contact{
+.contact {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 5px 10px;
     border-bottom: 1px solid #ccc;
     background-color: #f8f8f8;
@@ -9,39 +10,46 @@
     font-size: 14px;
 }
 
-.contact-profile{
+.contact-profile {
     display: flex;
     align-items: center;
 }
-.contact-info{
+
+.contact-info {
     width: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     color: #5a5a5a;
 }
-.user{
-    font-size:14px;
+
+.contact-actions {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.user {
+    font-size: 14px;
     margin-right: 10px;
     background-color: #eec0c0;
     padding: 5px;
     border-radius: 50%;
 }
-.trash{
-    font-size: 14px;
+
+.trash {
     color: red;
     cursor: pointer;
 
 }
-.call{
-    font-size: 14px;
+
+.call {
     color: green;
     cursor: pointer;
-    margin-right:10px;
+    margin-right: 10px;
 }
-.edit{
-    font-size: 14px;
+
+.edit {
     color: blue;
     cursor: pointer;
-    margin-right:10px;
+    margin-right: 10px;
 }

@@ -1,0 +1,89 @@
+@media screen and (min-width: 480px) {
+    .app {
+        padding: 0px 30px!important;
+    }
+    /* Contact-form component */
+    .form-toggle-btn {
+        padding: 10px 15px;
+    }
+
+    .form input {
+        width: 20rem;
+    }
+
+    .add-contact-btn {
+        padding: 10px 30px;
+    }
+
+    /* Contact component */
+    .user {
+        font-size: 20px;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+
+    .contact-info {
+        width: 12rem;
+    }
+
+    .contact-actions {
+        font-size: 17px;
+    }
+
+    .call {
+        margin-right: 15px;
+    }
+
+    .edit {
+        margin-right: 15px;
+    }
+}
+
+
+@media screen and (min-width: 720px) {
+    .app {
+        padding: 0px 80px!important;
+    }
+
+    /* Contact-form component */
+
+    .form input {
+        width: 30rem;
+        font-size: 17px;
+    }
+
+    .form-toggle-btn {
+        font-size: 16px;
+    }
+
+    .add-contact-btn {
+        font-size: 16px;
+    }
+
+    /* Contact component */
+    .user {
+        font-size: 27px;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+
+    .contact {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        width: 15rem;
+    }
+
+    .contact-actions {
+        font-size: 19px;
+    }
+
+    .call {
+        margin-right: 25px;
+    }
+
+    .edit {
+        margin-right: 25px;
+    }
+}
