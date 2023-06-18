@@ -4,7 +4,7 @@ import ContactList from '../components/contactList/ContactList';
 import Header from '../components/Header';
 import { getAllContacts, deleteContact, postContacts } from '../services/httpRequests';
 import '../styles/media-queries.css';
-import '../styles/app.css';
+import './app.css';
 
 
 const ContactManage = () => {
